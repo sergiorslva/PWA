@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.header{
+    width: 100%;
+    text-align: center;        
+}
+
+.card{
+    margin-bottom: 10px;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);        
+    padding: 10px;    
+}
+
+#cards-weather{
+    margin: auto;
+    width: 50%;    
+}
+
+@media screen and (max-width: 600px) {
+    #cards-weather{
+        margin: auto;
+        width: 100%;    
+    }
+}
+
+#cards-weather img{
+    float: left;   
+    margin-right: 20px; 
+}
+
+#cards-weather .city{
+    display: block;
+}
+
+#cards-weather .value{
+    display: block;    
+}
+
+  
